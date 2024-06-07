@@ -4,6 +4,8 @@
     "name": "Perfume",
     "desc": "Miguel Rousseouf",
     "value": "100.00",
+    "status": true,
+    "category": "Cosmetic",
     "image": "https://img.irroba.com.br/fit-in/600x600/filters:fill(fff):quality(80)/volarium/catalog/produtos/volarium/perfume/perfume-feminino/perfume-feminino-ch-tradicional-importado-original.jpg"
   },
   {
@@ -11,6 +13,35 @@
     "name": "Colar",
     "desc": "Jand Karno em perolas",
     "value": "2200.00",
+    "status": true,
+    "category": "Acessory",
     "image": "https://cdn.awsli.com.br/600x450/1537/1537341/produto/152389745/01e29e7fcc.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Perfume",
+    "desc": "Olympea by Paco Rabanne",
+    "value": "500.00",
+    "status": true,
+    "category": "Cosmetic",
+    "image": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/product/31890/39090be0-4fc3-4dc5-b87e-054c35090027-paco-rabanne-olympea-perfume-feminino-eau-de-parfum.png"
+  },
+  {
+    "id": 4,
+    "name": "Perfume",
+    "desc": "Lost Cherry by Tom Ford",
+    "value": "3200.00",
+    "status": false,
+    "category": "Cosmetic",
+    "image": "https://static.insales-cdn.com/r/6omGIOJt-NE/rs:fit:1000:0:1/q:100/plain/images/products/1/2496/742681024/IMG_2863.webp@webp"
+  },
+  {
+    "id": 5,
+    "name": "Perfume",
+    "desc": "Bitter Peach by Tom Ford",
+    "value": "2800.00",
+    "status": true,
+    "category": "Cosmetic",
+    "image": "https://www.lmching.com/cdn/shop/files/tom-ford-bitter-peach-perfume-set-edp-50ml-10ml-lmching-group-limited-2_540x.jpg?v=1687798364"
   }
 ]

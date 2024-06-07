@@ -5,6 +5,8 @@
   align-items: center;
   justify-content: center;
   gap: 1vw;
+  position: fixed;
+  top: 0%;
 }
 
 .wrapPage {
@@ -18,3 +20,44 @@
   padding: 10px;
   background-color: rgb(47, 47, 47);
 }
+
+.wrapProducts{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  gap:2vw;
+}
+
+.productCard {
+  background-color: #857f7f; 
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+  margin-right: 1500px;
+  width: 200px;
+}
+
+.productCard > h1{
+  display: flex;
+  justify-content: center;
+}
+
+.productCard > h2{
+  display: flex;
+  justify-content: center;
+}
+
+.productCard > p{
+  display: flex;
+  justify-content: center;
+}
+
+.productCard > img{
+  display: flex;
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  max-width: 95%;
+  
+}
+

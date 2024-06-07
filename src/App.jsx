@@ -36,10 +36,10 @@ function App() {
      {show === "prod" &&
         <>
           <h2>Showroom de produtos</h2>
-            <div>
+            <div className={style.wrapProducts}>
             {produtos.map((item) => {
               return(
-                <Card name={item.name} desc={item.desc} value={item.value} image={item.image} key={item.id}/>
+                <Card name={item.name} desc={item.desc} value={item.value} status={item.status} category={item.category} image={item.image} key={item.id}/>
               )
              })}
             </div>
