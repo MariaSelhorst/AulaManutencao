@@ -28,3 +28,14 @@
   width: 100vw;
   gap:2vw;
 }
+
+
+
+.allCards{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row ;
+  gap: 30px;
+  justify-content: center;
+}
+  

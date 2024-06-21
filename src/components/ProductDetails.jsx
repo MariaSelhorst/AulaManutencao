@@ -1,8 +1,10 @@
 import React from 'react';
+import style from "./ApiCard.module.css"
 
-const ProductDetails = ({ name, status, species, type, gender, image }) => {
+export const ProductDetails = ({ name, status, species, type, gender, image }) => {
   return (
-    <div>
+
+    <div className={style.card}>
       <img src={image} alt={name} />
       <div>
         <h3>{name}</h3>
@@ -12,7 +14,6 @@ const ProductDetails = ({ name, status, species, type, gender, image }) => {
         <p><strong>Gender:</strong> {gender}</p>
       </div>
     </div>
-  );
+  )
 }
 
-export default ProductDetails;
